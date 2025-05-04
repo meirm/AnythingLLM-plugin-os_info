@@ -1,0 +1,29 @@
+{
+  "hubId": "osinfo",
+  "active": true,
+  "name": "OS Info",
+  "version": "1.0.0",
+  "description": "A plugin to retrieve information about the operating system, RAM, and CPU.",
+  "author": "Your Name",
+  "author_url": "https://github.com/meirm",
+  "license": "MIT",
+  "examples": [
+    {
+      "prompt": "What operating system am I running?",
+      "call": "{}"
+    },
+    {
+      "prompt": "How much RAM and CPU do I have?",
+      "call": "{}"
+    },
+    {
+      "prompt": "Get my system information using osinfo",
+      "call": "{}"
+    }
+  ],
+  "setup_args": {},
+  "entrypoint": {
+    "file": "handler.js",
+    "params": {}
+  }
+} 
